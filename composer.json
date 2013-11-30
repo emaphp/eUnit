@@ -1,0 +1,31 @@
+{
+	"name" : "emacros/eunit",
+	"description" : "The Extensible Macros Package for PHP (Unit Test Package)",
+	"authors" : [{
+			"name" : "Emmanuel Antico",
+			"email" : "emmanuel.antico@gmail.com"
+		}
+	],
+	"keywords" : [
+		"emacros",
+		"macros",
+		"eunit",
+		"unit",
+		"tdd",
+		"test",
+		"testing"
+	],
+	"license" : [
+		"BSD 2-Clause License"
+	],
+	"require" : {
+		"php" : ">=5.4.0",
+		"emacros/emacros" : "master-dev"
+	},
+	"autoload" : {
+		"psr-0" : {
+			"eMacros" : "src/"
+		}
+	},
+	"minimum-stability" : "stable"
+}
